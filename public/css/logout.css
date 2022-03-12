@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* 表示画面全体 */
+body {
+  margin: auto;
+  max-width: 720px;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  background-color: orange;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Helvevetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+/* 登録、ログインボタンデザイン */
+input[type="submit"],
+textarea {
+  -webkit-appearance: none;
+  font-size: 16px;
+  border-radius: 0;
+}
+/* タイトル */
+.title{
+  background-color: orangered;
+  width: 300px;
+  border-radius: 8px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* 登録フォーム全体 */
+.continer{
+  margin: auto;
+  width: 400px;
+  background-color: orangered;
+  border-radius: 36px;
+  padding: 24px;
+  text-align: end;
+}
+/* 登録フォーム内 */
+.form{
+  margin: 12px;
+  text-align: end;
+  padding-right: 60px;
+}
